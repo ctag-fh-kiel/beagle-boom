@@ -10,7 +10,7 @@ The project's aim is to provide an easy to use sampler which has access to the f
 - Browser based UI: The interface is browser based and can be styled by your liking.
 
 ## I want to see it!
-
+[![CTAG Beagle Boom](https://img.youtube.com/vi/ARSwFIjIRGI/0.jpg)](https://www.youtube.com/watch?v=ARSwFIjIRGI)
 ## Overview
 
 ### Hardware
