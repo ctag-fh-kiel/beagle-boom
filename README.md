@@ -12,9 +12,11 @@ The project's aim is to provide an easy to use sampler which has access to the f
 ## I want to see it!
 [![CTAG Beagle Boom](https://img.youtube.com/vi/ARSwFIjIRGI/0.jpg)](https://www.youtube.com/watch?v=ARSwFIjIRGI)
 ## Overview
-
+The BeagleBoom consists of a shield for the Beaglebone and several programs handling sound generation, displaying graphics, reading cv, gate, button and rotary values.
 ### Hardware
+To meet the strict size limitations of eurorack modules (and for cheap PCBs) we devided the circuit board into two stacked ones. The lower one contains the power supply, adc + level shifter (for gate/cv). The upper shields holds the buttons, rotaries and the lcd, as well as the needed resistors and capacitators.
 
+The kicad project can be found at [https://github.com/BeagleBoom/Snouts](https://github.com/BeagleBoom/Snouts)
 ### Software
 
 #### General
