@@ -1,6 +1,6 @@
 # Beagle-Boom
 Beagle Boom is a Eurorack Sampler based on the Beaglebone single-board computer.
-It was build as part of a project for the Creative Technologies AG (CTAG) of University of Applied Sciences Kiel.
+It was build as part of a project for the Creative Technologies AG (CTAG) of the University of Applied Sciences Kiel.
 The project's aim is to provide an easy to use sampler which has access to the freesound.org sound database. The key features are:
 
 - Search, download, save and play any freesound sample
@@ -20,7 +20,7 @@ The kicad project can be found at [https://github.com/BeagleBoom/Snouts](https:/
 ### Software
 
 #### General
-
+This rebo holds the installation script needed to setup your Beaglebone. The documentation for the single applications resides in their own repositories.
 #### Message Queue
 
 #### ADC Manager
