@@ -19,7 +19,7 @@ To meet the strict size limitations of eurorack modules (and for cheap PCBs) we 
 The kicad project can be found at [https://github.com/BeagleBoom/Snouts](https://github.com/BeagleBoom/Snouts)
 ### Software
 #### General
-This rebo holds the installation script (`install.sh`) needed to setup your Beaglebone. You'll need an [https://beagleboard.org/latest-images/](image)  based on Debian. The documentation for the single applications resides in their own repositories.
+This rebo holds the installation script (`install.sh`) needed to setup your Beaglebone. You'll need an [image](https://beagleboard.org/latest-images/)  based on Debian. The documentation for the single applications resides in their own repositories.
 #### Message Queue
 Each application comunicates over POSIX MessageQueues. The MessageQueue repository holds a C++ library which is used to send events with arbitrary parameters to predefined recipients.
 Repo: [https://github.com/BeagleBoom/BeagleQueue](https://github.com/BeagleBoom/BeagleQueue)
