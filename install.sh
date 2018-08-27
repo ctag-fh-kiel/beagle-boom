@@ -77,6 +77,7 @@ echo 'Installing NodeJS'
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
 source ~/.bashrc
 nvm install node
+npm install -g pm2
 
 echo 'Installing BeagleBoom'
 
@@ -260,8 +261,6 @@ chmod +x /etc/rc.local
 
 systemctl enable rc-local 
 
-npm install -g pm2
-
 echo "xsetbg -fullscreen /root/BeagleBoom/menu/static/bg.png &
 xset -dpms # disable DPMS (Energy Star) features.
 xset s off # disable screen saver
@@ -277,8 +276,6 @@ nohup bin/iohandler 5  > /dev/null 2>&1 &
 cd ..
 cd adc
 nohup bin/adcmanager 10 > /dev/null 2>&1 &
-cd /root/BeagleBoom/menu
-forever start index.js 1
 " > /root/.xinitrc
 systemctl daemon-reload
 echo "Disabling unneeded services..."
