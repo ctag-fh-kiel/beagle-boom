@@ -10,6 +10,13 @@ apt-get update
 apt-get remove man-db
 apt-get install cmake wget nano build-essential git zlib1g-dev python-dev python-smbus python-pip python-imaging python-numpy midori matchbox x11-xserver-utils unclutter sysv-rc-conf xloadimage mplayer ffmpeg autofs pmount usbmount -y
 
+echo 'Installing Poco Lib. This will take a looooooong time. You\'ll need a huge supply of covfefe...'
+git clone -b master https://github.com/pocoproject/poco.git /root/poco
+cd /root/poco
+./configure --omit=NetSSL_OpenSSL,Crypto,Data/ODBC,Data/MySQL
+make -s -j4
+make install
+
 echo '# Configuration file for the usbmount package, which mounts removable
 # storage devices when they are plugged in and unmounts them when they
 # are removed.
